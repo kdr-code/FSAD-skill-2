@@ -32,11 +32,9 @@ public class MainApp
                     Session session = HibernateUtil.getSessionFactory().openSession();
                     Transaction tx = session.beginTransaction();
                     Product p = new Product();
-
-                    System.out.print("Enter Product ID: ");
-                    p.setPid(sc.nextInt());
+                    
                     sc.nextLine();
-
+                    
                     System.out.print("Enter Product Name: ");
                     p.setPname(sc.nextLine());
 

@@ -34,7 +34,7 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mapping -->
-        <mapping resource="product.hbm.xml"/>
+        <mapping class="com.product.entity.Product"/>
 
     </session-factory>
 </hibernate-configuration>
